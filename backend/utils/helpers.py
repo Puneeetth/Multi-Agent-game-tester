@@ -23,7 +23,9 @@ def sanitize_filename(name: str) -> str:
     # Limit length
     return sanitized[:100]
 
-#format duration
+#format duration in milli seconds
+
+
 def format_duration(ms: int) -> str:
     """
     Format duration in milliseconds to human-readable string.
